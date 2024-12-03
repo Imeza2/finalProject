@@ -1,0 +1,19 @@
+from tkinter import * 
+from tkinter import ttk
+root = Tk()
+root.geometry("330x430")
+root.title("Juna")
+
+
+junaLabel = Label(root, text="Enter your name") #initial welcome label 
+junaLabel.pack()
+
+loginEntry = Entry(root) #user name entry 
+loginEntry.pack()
+
+## validate that login is only a name(string?),  
+
+chatBtn = Button(root, text="Continue to chat with Juna") #button that enters the chat window 
+chatBtn.pack()
+
+#include pic somehow of "juna" maybe
